@@ -127,7 +127,7 @@ class Guess extends JFrame
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
-    private class ButtonListener implements ActionListener
+    private  class ButtonListener implements ActionListener
     {
         int bestScore=100;
         public void actionPerformed(ActionEvent e)
